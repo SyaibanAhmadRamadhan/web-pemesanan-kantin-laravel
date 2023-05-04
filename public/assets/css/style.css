@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #dfdce3;
+    font-weight: 500;
+}
+
+:root {
+    --var-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --var-bg: #f5f5f5;
+}
+
+.text-danger {
+    color: #fc4a1a !important;
+}
+
+.btn-danger {
+    background-color: #fc4a1a !important;
+}
+
+.shadow-primary {
+    box-shadow: var(--var-shadow);
+}
+
+.bg-abu {
+    background-color: var(--var-bg);
+}
+
+/* Navbar */
+nav {
+    background-color: #4abdac;
+}
+
+nav .img-profile {
+    height: 27px;
+    width: 27px;
+    object-fit: cover;
+}
+/* Navbar */
+
+/* Menu */
+#menu .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: 0.4s;
+}
+
+.menu-img-display {
+    max-height: 190px;
+    object-fit: contain;
+}
+.menu-img-modal {
+    max-height: 300px;
+    object-fit: contain;
+}
+/* Menu */
+
+/* Akun */
+#auth img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+#auth .btn-auth {
+    background-color: #fff;
+}
+
+#auth .btn-auth:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+#auth .btn-auth1 {
+    background-color: #4ec5c1;
+}
+
+#auth .btn-auth1:hover {
+    background-color: #6fe0dc;
+}
+
+#auth .form-control {
+    border: none;
+}
+/* auth */
+
+#dpesanan img {
+    height: 6rem;
+    object-fit: contain;
+    width: 6rem;
+}
+
+@media only screen and (max-width: 991px) {
+    #dpesanan .dtotal {
+        padding: 0 !important;
+    }
+
+    .container-fluid {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
